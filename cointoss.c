@@ -20,7 +20,7 @@ int main() {
     printf("Enter number of tosses: ");
     scanf("%d", &n);
 
-    srand(time(NULL));
+    
     for(i = 0; i < n; i++) {
         if(rand() % 2 == 0)
             fairHeads++;
